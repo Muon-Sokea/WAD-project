@@ -1,18 +1,3 @@
-# Step 18: Write `README.md`
-
-## What you will do
-
-Write project information in `README.md`.
-
-## File
-
-```text
-README.md
-```
-
-## Content
-
-```markdown
 # Lab 01: First Streamlit App
 
 ## Project Theme
@@ -45,4 +30,4 @@ streamlit run app.py
 Name: Muon Sokea
 Student ID: 000099290
 Class: DSE_Y3S1_M2
-```
+
