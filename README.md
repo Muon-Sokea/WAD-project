@@ -1,4 +1,4 @@
-# Lab 01: First Streamlit App
+# Lab 03: Data Loading, Layout, and Frontend Prototype
 
 ## Project Theme
 
@@ -6,13 +6,30 @@ EduRisk Analytics
 
 ## Description
 
-This is my first Streamlit web app.
+This Streamlit app is a frontend prototype for student academic monitoring.
+
+This lab continues from Lab 02 and moves the student dataset out of app.py into students.csv.
+
+The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashboard layout.
 
 ## Features
 
 - Sidebar navigation
-- Student data table
+- Home page
+- Dashboard page
+- Student Data page
+- Risk Checker page
+- About page
+- Student dataset stored in students.csv
+- CSV data loading with Pandas
+- Missing CSV file error handling
+- Risk level calculation
 - Dashboard metrics
+- Student records table
+- Student score chart
+- Course count chart
+- Data inspection section
+- Ethics reminder
 
 ## Tools Used
 
@@ -21,13 +38,20 @@ This is my first Streamlit web app.
 - Pandas
 - VS Code
 
+## Required Files
+
+- app.py
+- students.csv
+- requirements.txt
+- README.md
+
 ## How to Run
 
-streamlit run app.py
+python m- streamlit run app.py
 
 ## Student Information
 
 Name: Muon Sokea
 Student ID: 000099290
-Class: DSE_Y3S1_M2
+Class: M2
 
