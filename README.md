@@ -1,4 +1,4 @@
-# Lab 03: Data Loading, Layout, and Frontend Prototype
+# Lab 04: Forms, Validation, and Session State
 
 ## Project Theme
 
@@ -6,11 +6,11 @@ EduRisk Analytics
 
 ## Description
 
-This Streamlit app is a frontend prototype for student academic monitoring.
+This Streamlit app is a student academic monitoring prototype.
 
-This lab continues from Lab 02 and moves the student dataset out of app.py into students.csv.
+This lab continues from Lab 03 and improves the Risk Checker page using Streamlit forms, input validation, and session state.
 
-The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashboard layout.
+The app loads student data from students.csv, displays dashboard information, and allows users to check individual student risk levels with a reliable form-based workflow.
 
 ## Features
 
@@ -24,12 +24,14 @@ The app loads CSV data using Pandas and displays it in a cleaner Streamlit dashb
 - CSV data loading with Pandas
 - Missing CSV file error handling
 - Risk level calculation
-- Dashboard metrics
-- Student records table
-- Student score chart
-- Course count chart
-- Data inspection section
-- Ethics reminder
+- Streamlit form
+- Form submit button
+- Empty student name validation
+- Supportive risk feedback messages
+- Session state risk-check history
+- Recent Risk Checks table
+- Clear History button
+- Ethics reminders
 
 ## Tools Used
 
